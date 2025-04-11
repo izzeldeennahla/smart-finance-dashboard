@@ -63,41 +63,42 @@ streamlit run smart_finance_app.py
 
 ## 📸 Application Screenshots
 
-### 🧭 Sidebar Navigation
-![Sidebar](assets/screenshots/sidebar_dashboard_menu.png)
+### 🧭 Sidebar Menu
+![Sidebar Menu](assets/screenshots/sidebar_dashboard_menu.png)
 
-### 🔎 Symbol & Filters Input
-![Filters](assets/screenshots/sidebar_symbol_and_filters.png)
+### 🔍 Stock Symbol & Filters
+![Symbol Filters](assets/screenshots/sidebar_symbol_and_filters.png)
 
-### 📈 Technical Analysis with Chart
+### 📊 Technical Analysis View + TradingView Chart
 ![Technical Analysis](assets/screenshots/technical_analysis_dashboard.png)
 
-### 📋 Recommendation Log
+### 📋 Recommendations Log
 ![Recommendations](assets/screenshots/recommendations_log.png)
 
-### 💬 Support Page
-![Support](assets/screenshots/support_contact_page.png)
+### 📬 Contact Support Page
+![Support Contact](assets/screenshots/support_contact_page.png)
 
-### 🤖 AI Forecast Page
+### 🤖 AI Market Forecast Page
 ![AI Forecast](assets/screenshots/ai_market_forecast_page.png)
 
-### 📊 Forecast Summary
-![Summary](assets/screenshots/forecast_summary_page.png)
+### 📈 Forecast Summary View
+![Forecast Summary](assets/screenshots/forecast_summary_page.png)
 
-### 📉 Interactive Chart (TradingView)
-![Chart](assets/screenshots/interactive_chart.png)
+### 💹 Interactive Chart
+![Interactive Chart](assets/screenshots/interactive_chart.png)
 
-### 🧾 Raw Data Table
+### 🧮 Raw Data Table
 ![Raw Data](assets/screenshots/raw_data_table.png)
 
-### 📤 Export PDF Interface
-![Export](assets/screenshots/export_pdf_section.png)
+### 📨 Export PDF Section
+![Export PDF](assets/screenshots/export_pdf_section.png)
 
-### 📑 Generated PDF Report
-![PDF](assets/screenshots/forecast_pdf_report.png)
+### 📄 Forecast PDF Report Sample
+![PDF Report](assets/screenshots/forecast_pdf_report.png)
 
-### 🔄 Prediction vs Reality Comparison
-![Compare](assets/screenshots/prediction_vs_reality_and_std_chart_pdf.png)
+### 📊 Prediction vs Reality + Standard Deviation
+![Prediction Table & Std Chart](assets/screenshots/prediction_vs_reality_and_std_chart.pdf.png)
+
 
 ---
 
