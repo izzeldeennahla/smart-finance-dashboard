@@ -5,9 +5,6 @@ import pyrebase
 from firebase_config import firebase_config
 import os, json
 
-st.write("✅ Loaded secrets keys:", list(st.secrets.keys()))
-st.write("🔑 Firebase Project ID:", st.secrets["firebase"]["project_id"])
-
 # ✅ أول أمر في التطبيق (لا تكرره في باقي الصفحات)
 st.set_page_config(page_title="Smart AI Forecast", layout="wide", initial_sidebar_state="expanded")
 
