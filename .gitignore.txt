@@ -1,0 +1,7 @@
+__pycache__/
+.venv/
+*.pkl
+*.bat
+*.xlsx
+.env
+firebase_config.py
