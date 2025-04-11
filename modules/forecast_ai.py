@@ -18,7 +18,7 @@ from tensorflow.keras.layers import LSTM, Dense, Dropout
 from streamlit_autorefresh import st_autorefresh
 import uuid
 
-API_KEY = "c4091513f5b543648761168b52cbada3"
+API_KEY = "00000000000000000000000000000000"
 BASE_URL = "https://api.twelvedata.com"
 
 @st.cache_data(ttl=60)
