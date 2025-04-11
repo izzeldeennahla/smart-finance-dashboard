@@ -97,8 +97,7 @@ streamlit run smart_finance_app.py
 ![PDF Report](assets/screenshots/forecast_pdf_report.png)
 
 ### 📊 Prediction vs Reality + Standard Deviation
-![prediction_vs_reality_and_std_chart.pdf.png)
-
+![Prediction Table & Std Chart](assets/screenshots/prediction_vs_reality_and_std_chart_pdf.png)
 
 ---
 
