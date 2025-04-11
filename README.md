@@ -1,3 +1,4 @@
+
 # 📊 Smart Finance Dashboard | لوحة التوقع المالي الذكية
 
 An AI-powered forecasting dashboard for stock market and crypto analysis using deep learning and technical indicators — built with Python, Streamlit, and Firebase.  
@@ -43,3 +44,66 @@ An AI-powered forecasting dashboard for stock market and crypto analysis using d
 ```bash
 git clone https://github.com/izzeldeennahla/smart-finance-dashboard.git
 cd smart-finance-dashboard
+```
+
+### 2. 📦 Create virtual env (اختياري)
+
+```bash
+python -m venv .venv
+source .venv/bin/activate  # على Linux/macOS
+.venv\Scripts\activate     # على Windows
+```
+
+### 3. 🧱 Install requirements | تثبيت المكتبات
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. 🧾 Create `.env` file | أنشئ ملف البيئة
+
+```env
+FIREBASE_API_KEY=your_key
+FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+...
+```
+
+### 5. ▶️ Run the dashboard | تشغيل التطبيق
+
+```bash
+streamlit run smart_finance_app.py
+```
+
+---
+
+## 🌐 Deploy on Streamlit Cloud | النشر على Streamlit Cloud
+
+1. افتح [streamlit.io/cloud](https://streamlit.io/cloud)  
+2. اربط حساب GitHub واختر هذا المشروع  
+3. حدّد الملف الرئيسي `smart_finance_app.py`  
+4. اضغط "Deploy"
+
+---
+
+## 📸 Screenshots | صور من التطبيق
+
+*(أضف صورًا من الواجهة مثل لوحة التوقع، الشارت التفاعلي، تقارير PDF)*
+
+---
+
+## 🔒 Security Notice | تنبيه أمني
+
+⚠️ لا ترفع بيانات سرية (مثل مفاتيح Firebase) مباشرة داخل الكود.  
+استخدم ملفات `.env` وخزّن فيها البيانات بأمان.
+
+---
+
+## 🙌 Author | المطوّر
+
+تم التطوير بواسطة [@izzeldeennahla](https://github.com/izzeldeennahla) — إذا أعجبك المشروع، لا تنسَ 🌟
+
+---
+
+## 🪪 License | الرخصة
+
+هذا المشروع مفتوح المصدر ومتاح بموجب رخصة MIT.
