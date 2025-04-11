@@ -1,13 +1,11 @@
 import streamlit as st
+st.set_page_config(page_title="Smart AI Forecast", layout="wide", initial_sidebar_state="expanded")
+
 import firebase_admin
 from firebase_admin import credentials, firestore
 import pyrebase
 from firebase_config import firebase_config
 import os, json
-
-# ✅ أول أمر في التطبيق (لا تكرره في باقي الصفحات)
-st.set_page_config(page_title="Smart AI Forecast", layout="wide", initial_sidebar_state="expanded")
-
 # -------------------- Firebase Auth Init --------------------
 firebase = pyrebase.initialize_app(firebase_config)
 auth = firebase.auth()
