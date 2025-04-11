@@ -12,11 +12,14 @@ st.set_page_config(page_title="Smart AI Forecast", layout="wide", initial_sideba
 firebase = pyrebase.initialize_app(firebase_config)
 auth = firebase.auth()
 
+# 🔐 Load credentials from Streamlit secrets
 if not firebase_admin._apps:
-    cred = credentials.Certificate("stock-ai-dashboard-firebase-adminsdk-fbsvc-8be709e0ac.json")
+    cred = credentials.Certificate(st.secrets["firebase"])
     firebase_admin.initialize_app(cred)
 
+# 💾 Firestore
 db = firestore.client()
+
 
 # -------------------- Load Session --------------------
 session_file = "session.json"
